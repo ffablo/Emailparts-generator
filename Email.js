@@ -6,7 +6,7 @@ document.getElementById("check").onclick = function(){
     //console.log(`Your username is: ${username}`);
     let domainName = emailValue.slice(emailValue.indexOf('@')+1, emailValue.indexOf('.'));
     let extension = emailValue.slice(emailValue.indexOf('.')+1);
-    display.textContent = `Username = ${username}    Domainname = ${domainName}    Extension = ${extension}`;
+    //display.textContent = `Username = ${username}    Domainname = ${domainName}    Extension = ${extension}`;
 
 
     localStorage.setItem("username",username); 
