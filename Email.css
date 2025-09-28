@@ -11,3 +11,11 @@
       max-width: 400px;
       margin: auto;
     }
+    #main{
+      min-height: 200px;
+      border-radius: 4px;
+      max-width: 400px;
+      margin: auto;
+      
+    
+    }

@@ -6,5 +6,5 @@ const resultDiv = document.getElementById("result");
 if(username && domain && extension) {
     resultDiv.textContent = `username: ${username}, Domain:${domain}, Extension: ${extension}`;}
 else {
-    resultDiv.textContent = "No data found."
+    resultDiv.textContent = "No data found! Check the Email you have entered"
 }   
